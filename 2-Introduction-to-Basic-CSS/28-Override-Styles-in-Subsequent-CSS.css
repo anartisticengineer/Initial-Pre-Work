@@ -1,0 +1,17 @@
+/*The same overriding procedure can be done again, but the last class in the CSS/style
+  portion will end up being used here.*/
+<style>
+  body {
+    background-color: black;
+    font-family: monospace;
+    color: green;
+  }
+  .pink-text {
+    color: pink;
+  }
+
+  .blue-text {
+    color: blue;
+  }
+</style>
+<h1 class="pink-text blue-text">Hello World!</h1>

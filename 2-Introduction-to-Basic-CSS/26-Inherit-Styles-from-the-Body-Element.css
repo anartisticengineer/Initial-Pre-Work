@@ -1,0 +1,12 @@
+/*Styling rules in the body section of the CSS can be treated as global styling rules
+  And all elements within the body will inherit those rules.*/
+<style>
+  body {
+    background-color: black;
+    color: green;
+    font-family: monospace;
+  }
+
+</style>
+
+<h1>Hello World</hl>

@@ -1,0 +1,14 @@
+/*Using a proven working value in the event the variable is not compatible with the browser
+  helps avoid any further complications in the webpage.*/
+<style>
+  :root {
+    --red-color: red;
+  }
+  .red-box {
+    background: red;
+    background: var(--red-color);
+    height: 200px;
+    width:200px;
+  }
+</style>
+<div class="red-box"></div>

@@ -1,0 +1,14 @@
+/*A class can also be used to override a rule in the body if needed,
+  i.e. dfferent fonts, different colors, etc.*/
+<style>
+  body {
+    background-color: black;
+    font-family: monospace;
+    color: green;
+  }
+  .pink-text {
+    color: pink;
+  }
+
+</style>
+<h1 class="pink-text">Hello World!</h1>

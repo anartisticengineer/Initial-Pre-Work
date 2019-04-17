@@ -1,0 +1,6 @@
+/*Direct RGB notation can also be used to represent colors.*/
+<style>
+  body {
+    background-color: rgb(0,0,0);
+  }
+</style>

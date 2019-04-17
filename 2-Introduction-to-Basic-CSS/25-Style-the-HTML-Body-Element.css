@@ -1,0 +1,7 @@
+/*The entire body of the html document can also follow any given style rules.
+  This can also be done to prove that the body exists.*/
+<style>
+    body {
+        background-color: black;
+    }
+</style>

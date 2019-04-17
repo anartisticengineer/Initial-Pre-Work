@@ -1,0 +1,19 @@
+/*And any inline style declarations will override anything in the CSS
+  (body, class or id)*/
+<style>
+  body {
+    background-color: black;
+    font-family: monospace;
+    color: green;
+  }
+  #orange-text {
+    color: orange;
+  }
+  .pink-text {
+    color: pink;
+  }
+  .blue-text {
+    color: blue;
+  }
+</style>
+<h1 style="color:green;"id="orange-text" class="pink-text blue-text">Hello World!</h1>
