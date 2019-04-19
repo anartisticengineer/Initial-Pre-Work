@@ -4,36 +4,43 @@
 
 ## When we hit https://www.techtonic.com/ what happens? Don’t focus too much on architecture (Monolithic, SOA, Microservices, etc.). Try to focus more on how the web functions in general terms/steps.
 
-put your answer here
+As the client, entering the URL signifies that you are requesting the page from the server
+associated with the domain 'www.techtonic.com'. This associated server will then check to see if the requested
+page is available as the screen loads. When successful, the page will be sent back to the client, and rendered as
+the HTML page.
 
 ## From start to finish, how does data reach you to be rendered in the browser?
 
-put your answer here
+When the client requests the data from the server, the server will then search for the requested data
+and deliver it alongside a static HTML document. When successfully loaded, this HTML code is then rendered in the browser.
+This is the sign of a dynamic webpage relying on server and client-side development.
 
 ## What code is rendered in the browser?
 
-put your answer here
+Front-End : HTML/CSS/Javascript
 
 ## What is the server-side code’s main function?
 
-put your answer here
+The server-side (back-end) deals mostly with handling larger amounts of complex data, usually dealing
+with data from MANY users (databases): hence why this code is handled by servers instead of personal computers.
 
 ## What is the client-side code’s main function?
 
-put your answer here
+The client-side (front-end) deals mostly with anything involving the user experience,
+from typical browsing to filling out forms/submissions.
 
 ## What is runtime?
 
-put your answer here
+Runtime is the amount of time it takes for a computer program to run from start to finish.
 
 ## How many instances of the client-side assets (HTML, CSS, JS, Images, etc.) are created?
 
-put your answer here
+1 HTML, 1 CSS, 8 Javascript, 19 Images, 4 Fonts (Found from viewing the source code directly).
 
 ## How many instances of the server-side code are available at any given time?
 
-put your answer here
-
+8 Javascript(?): some of the viewed Javascript deals with server side functions
+(I realize that Javascript can be used for front-end and back-end).
 ## How many instances of the databases connected to the server application are created?
 
-put your answer here
+5 (I believe this deals with cookies and session storage?)
